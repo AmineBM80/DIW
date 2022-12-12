@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style_tableau.css">
+    <link rel="stylesheet" href="assets/css/style_responsive.css">
+</head>
+<body class="container-fluid">
+
+    <header class="d-none d-lg-block">
+        <div class="container-fluid">
+            <div class="row">
+                <img src="FRONT/STATIQUE/src/img/jarditou_logo.jpg" class="img-fluid rounded float-left col-3"   id="img1" alt="Jarditou Logo">
+                <div class="text-center text-justify p-3 font-weight-bold h1 col-9" id="slogan">Tout le jardin</div>
+            </div>
+        </div>    
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Jarditou.com</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tableau.html">Tableau <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <form class="form-inline d-none d-lg-block">
+            <input class="form-control mr-sm-2" type="search" placeholder="Votre promotion" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+        </form>
+    </nav>
+    
+    <div>
+      <img src="FRONT/STATIQUE/src/img/promotion.jpg" class="w-100" alt="les_promos_de_jarditou" id="img2" title="les_promos_de_jarditou">
+    </div>
+
+    <section class="container-fluid">
+        <div class="row">
+            <article class="table-responsive">
+                
+                <h1 class="d-none"> Tableau </h1>
+
+                <br>
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover table-bordered">
+                    
+                        <thead>
+                        <tr>
+                            <th class="col-2">Photo</th>
+                            <th>ID</th>
+                            <th>Catégorie</th>
+                            <th>Libellé</th>
+                            <th>Prix</th>
+                            <th>Couleur</th>
+                        </tr> 
+                        </thead>
+                
+                            <tbody>
+                
+                            <tr>
+                            <td> <img src="FRONT/STATIQUE/src/img/7.jpg" alt="barbecues_aramis" class="img-fluid col-12"></td>
+                            <td>7</td>
+                            <td>Barbecues</td>
+                            <td>Aramis</td>
+                            <td>110.00€</td>
+                            <td>Brun</td>
+                            </tr>
+                    
+                            <tr>
+                                <td><img src="FRONT/STATIQUE/src/img/8.jpg" alt="barbecues_athos" class="img-fluid col-12"></td>
+                                <td>8</td>
+                                <td>Barbecues</td>
+                                <td>Athos</td>
+                                <td>249.99€</td>
+                                <td>Noir</td>
+                            </tr>
+                
+                            <tr>
+                                <td><img src="FRONT/STATIQUE/src/img/11.jpg" alt="barbecues_clatronic" class="img-fluid col-12"></td>
+                                <td>11</td>
+                                <td>Barbecues</td>
+                                <td>Clatronic</td>
+                                <td>135.90€</td>
+                                <td>Chrome</td>
+                            </tr>
+                    
+                            <tr>
+                                <td><img src="FRONT/STATIQUE/src/img/12.jpg" alt="barbecues_camping" class="img-fluid col-12"></td>
+                                <td>12</td>
+                                <td>Barbecues</td>
+                                <td>Clatronic</td>
+                                <td>88.00€</td>
+                                <td>Noir</td>
+                            </tr>
+                    
+                            <tr>
+                                <td><img src="FRONT/STATIQUE/src/img/13.jpg" alt="brouette_green" class="img-fluid col-12"></td>
+                                <td>13</td>
+                                <td>Brouette</td>
+                                <td>Green</td>
+                                <td>49.00€</td>
+                                <td>Verte</td>
+                            </tr>
+                    
+                        </tbody>
+                    </table>
+                </div>
+
+            </article>
+            <!-- <aside class="bg-warning col-12 col-lg-4">[Colonne droite]</aside> -->
+        </div>
+    </section>
+
+    <footer class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Mention Légal <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tableau.html">Horaire</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Plan du site</a>
+            </li>
+          </ul>
+        </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" 
+        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </footer>
+    
+
+</body>
+</html>
