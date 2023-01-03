@@ -61,17 +61,17 @@
             
             <br>
             <p>*Ces zones sont obligatoires</p>
-            <form>
+            <form action="/BACK/SERVEUR/PHP/monscript.php">
                 <div class="form-group">
                     <fieldset>
                         <legend class="h2"> Vos Coordonnées</legend>
                         <label for="nom">Votre Nom*:</label>
                         <input class="form-control" class="form-control" type="text" name="nom" id="nom"><br>
-                        <label for="email_1">Votre prénom*:</label><input class="form-control" type="email" name="email_1" id="email_1"><br>
+                        <label for="prenom">Votre prénom*:</label><input class="form-control" type="text" name="prenom" id="prenom"><br>
                         <br>
                         <label for="sexe">Sexe* :</label>
-                        <input type="radio" name="sexe" value="Féminin" id="sexe"> Féminin
-                        <input type="radio" name="sexe" value="Masculin" > Masculin 
+                        <input type="radio" name="sexe[]" value="Féminin" id="sexe"> Féminin
+                        <input type="radio" name="sexe[]" value="Masculin" > Masculin 
                         <br>
                         <br>
                         <label for="date">Date de naissance* :</label><input class="form-control" type="date" name="ddn" id="date"><br>
