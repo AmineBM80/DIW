@@ -30,8 +30,13 @@
         Nom de l'artiste : <?= $myArtist->artist_name ?>
         Site Internet : <?= $myArtist->artist_url ?>
         <br>
+        <br>
         <a href="artist_form.php?id=<?= $myArtist->artist_id ?>">Modifier</a>
         <form action ="script_artist_modif.php" method="post">
+        <br>
+        <a href="script_artist_delete.php?id=<?= $myArtist->artist_id ?>">Supprimer</a>
+        <br>
+        <br>
 
         <input type="hidden" name="id" value="<?= $myArtist->artist_id ?>">
 
