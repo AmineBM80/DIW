@@ -32,7 +32,7 @@
     <br>
     <br>
 
-    <form action ="script_disc_ajout.php" method="post" enctype="multipart/form-data">
+    <form action ="script_disc_ajout.php" method="post">
 
         <label for="title_for_label">Title</label><br>
         <input type="text" name="title_for_label" id="title_for_label">
